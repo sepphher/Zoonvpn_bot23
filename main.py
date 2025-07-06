@@ -103,7 +103,7 @@ async def handle_gig(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
 # اجرای ربات و وب‌سرویس
 def start_bot():
-    app = ApplicationBuilder().token("توکن_خودت_را_اینجا_بذار").build()
+    app = ApplicationBuilder().token("7941595925:AAFTGXlI7Eco3prvsLcWYQb4oAkEq548F4w").build()
     conv_handler = ConversationHandler(
         entry_points=[CommandHandler('start', start)],
         states={
