@@ -1,1 +1,2 @@
-chmod +x start.sh && ./start.sh
+#!/bin/bash
+python main.py
